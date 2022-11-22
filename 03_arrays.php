@@ -15,11 +15,15 @@ $colors = ['red', 'blue', 'green'];
 $numbers = [1, 2, 3, 4, 5];
 
 // Outputting values from an array
+echo "<pre>";
 echo $numbers[0];
+echo "</pre>";
 echo $numbers[3] + $numbers[4];
 
 // We can use print_r or var_dump to see the contents of an array
+echo "<pre>";
 var_dump($numbers);
+echo "</pre>";
 
 /* ------ Associative Arrays ----- */
 
@@ -43,7 +47,10 @@ $hex = [
 ];
 
 echo $hex['red'];
+
+echo "<pre>";
 var_dump($hex);
+echo "</pre>";
 
 /* ---- Multi-dimensional arrays ---- */
 
@@ -73,14 +80,18 @@ $people = [
   ],
 ];
 
+echo "<pre>";
 var_dump($people);
+echo "</pre>";
 
 // Accessing values in a multi-dimensional array
 echo $people[0]['first_name'];
 echo $people[2]['email'];
 
 // Encode to JSON
+echo "<pre>";
 var_dump(json_encode($people));
+echo "</pre>";
 
 // Decode from JSON
 $jsonobj = '{"first_name":"Brad","last_name": "Traversy","email":"brad@gmail.com"}';

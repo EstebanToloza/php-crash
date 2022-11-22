@@ -27,7 +27,7 @@ if (condition) {
 $age = 20;
 
 if ($age >= 18) {
-  echo 'You are old enough to vote!';
+  echo 'You are old enough to voteee!';
 } else {
   echo 'Sorry, you are too young to vote.';
 }

@@ -28,7 +28,7 @@ $age = 40; // Integer
 $hasKids = true; // Boolean
 $cashOnHand = 10.5; //Float
 
-var_dump($cashOnHand);
+//var_dump($cashOnHand);
 
 /* --- Adding variables to strings -- */
 
@@ -52,5 +52,7 @@ echo 10 / 2;
 // Constants - Cannot be changed
 define('HOST', 'localhost');
 define('USER', 'root');
+define('LISTA', [1, 2, 3, 4]);
 
 var_dump(HOST);
+var_dump(LISTA[2]);
